@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6812F312280296CE00BF6D54 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6812F311280296CE00BF6D54 /* Diary.swift */; };
 		689102AE27FEB0290005C7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102AD27FEB0290005C7A5 /* AppDelegate.swift */; };
 		689102B027FEB0290005C7A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102AF27FEB0290005C7A5 /* SceneDelegate.swift */; };
 		689102B227FEB0290005C7A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102B127FEB0290005C7A5 /* ViewController.swift */; };
 		689102B527FEB0290005C7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689102B327FEB0290005C7A5 /* Main.storyboard */; };
 		689102B727FEB02B0005C7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689102B627FEB02B0005C7A5 /* Assets.xcassets */; };
 		689102BA27FEB02B0005C7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689102B827FEB02B0005C7A5 /* LaunchScreen.storyboard */; };
+		689102C227FEB3640005C7A5 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102C127FEB3640005C7A5 /* DiaryCell.swift */; };
+		689102C427FEB3AB0005C7A5 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102C327FEB3AB0005C7A5 /* StarViewController.swift */; };
+		689102C627FEB4CC0005C7A5 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102C527FEB4CC0005C7A5 /* StarCell.swift */; };
+		689102C827FEB70B0005C7A5 /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102C727FEB70A0005C7A5 /* WriteDiaryViewController.swift */; };
+		689102CA27FEB7920005C7A5 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689102C927FEB7920005C7A5 /* DiaryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6812F311280296CE00BF6D54 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		689102AA27FEB0290005C7A5 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689102AD27FEB0290005C7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		689102AF27FEB0290005C7A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		689102B627FEB02B0005C7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		689102B927FEB02B0005C7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689102BB27FEB02B0005C7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689102C127FEB3640005C7A5 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diary\U0010Cell.swift"; sourceTree = "<group>"; };
+		689102C327FEB3AB0005C7A5 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		689102C527FEB4CC0005C7A5 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		689102C727FEB70A0005C7A5 /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
+		689102C927FEB7920005C7A5 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				689102B627FEB02B0005C7A5 /* Assets.xcassets */,
 				689102B827FEB02B0005C7A5 /* LaunchScreen.storyboard */,
 				689102BB27FEB02B0005C7A5 /* Info.plist */,
+				689102C127FEB3640005C7A5 /* DiaryCell.swift */,
+				689102C327FEB3AB0005C7A5 /* StarViewController.swift */,
+				689102C527FEB4CC0005C7A5 /* StarCell.swift */,
+				689102C727FEB70A0005C7A5 /* WriteDiaryViewController.swift */,
+				689102C927FEB7920005C7A5 /* DiaryDetailViewController.swift */,
+				6812F311280296CE00BF6D54 /* Diary.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				689102B227FEB0290005C7A5 /* ViewController.swift in Sources */,
+				689102C827FEB70B0005C7A5 /* WriteDiaryViewController.swift in Sources */,
+				689102C627FEB4CC0005C7A5 /* StarCell.swift in Sources */,
 				689102AE27FEB0290005C7A5 /* AppDelegate.swift in Sources */,
+				689102C227FEB3640005C7A5 /* DiaryCell.swift in Sources */,
+				6812F312280296CE00BF6D54 /* Diary.swift in Sources */,
+				689102CA27FEB7920005C7A5 /* DiaryDetailViewController.swift in Sources */,
 				689102B027FEB0290005C7A5 /* SceneDelegate.swift in Sources */,
+				689102C427FEB3AB0005C7A5 /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
